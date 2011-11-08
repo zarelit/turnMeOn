@@ -85,14 +85,11 @@
      </item>
      <item row="2" column="1">
       <widget class="QLineEdit" name="FQDNInput">
-       <property name="toolTip">
-        <string>write &quot;LAN&quot; without quotes to wake a system present in your LAN</string>
-       </property>
        <property name="text">
         <string/>
        </property>
        <property name="placeholderText">
-        <string>IP/Hostname/&quot;LAN&quot;</string>
+		   <string>IP/Hostname/empty for LAN</string>
        </property>
       </widget>
      </item>
