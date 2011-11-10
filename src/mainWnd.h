@@ -18,9 +18,11 @@
 #define normalColor QColor(255,255,255)
 //!< defines the background color of a correct/unkown field
 #define ABOUT_TEXT "turnMeOn: a wake on LAN/wake on WAN packet sender\n"\
+	"\n Version 1.0"\
 	"\n Written by David Costa <david@zarel.net>\n"\
 	"Feel free to contact me for bugfixes and feature requests\n"\
-	"\n Released under the GNU General Public License"
+	"\n Released under the GNU General Public License\n"\
+	"\n http://turnMeOn.sourceforge.net"
 //!< defines the text of the about message box
 
 /**

@@ -2,7 +2,7 @@
 # turnMeOn project file
 
 # Uncomment next line to build the doc
-#CONFIG += documentation 
+# CONFIG += documentation 
 # Uncomment next line to rebuild the database (if needed)
 #CONFIG += rebuild_db
 # Uncomment the next line to build a release version
@@ -111,6 +111,8 @@ win32{
 
 		INSTALLS+=setup
 	}
+
+	RC_FILE+=res\\icon.rc
 }
 
 exists(build\\defaults.qmake){
